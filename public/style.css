@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #111;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.form-box {
+  background: #222;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px #0ff;
+  text-align: center;
+}
+
+input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin: 15px 0;
+  border: none;
+  border-radius: 8px;
+}
+
+.glow-button {
+  background: #0ff;
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+  box-shadow: 0 0 10px #0ff, 0 0 20px #0ff;
+}
+
+.glow-button:hover {
+  background: #00e5ff;
+  box-shadow: 0 0 20px #00e5ff, 0 0 30px #00e5ff;
+}
