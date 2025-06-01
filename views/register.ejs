@@ -1,18 +1,23 @@
 <!DOCTYPE html>
-<html>
+<html lang="vi">
 <head>
-  <link rel="stylesheet" href="/style.css">
+  <meta charset="UTF-8">
   <title>Đăng ký</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/style.css">
 </head>
 <body>
-  <div class="form-box">
+  <div class="container">
     <h2>Đăng ký</h2>
     <form action="/register" method="POST">
       <input type="text" name="username" placeholder="Tên đăng nhập" required>
+      <input type="email" name="email" placeholder="Email" required>
       <input type="password" name="password" placeholder="Mật khẩu" required>
-      <button class="glow-button" type="submit">Đăng ký</button>
+      <button type="submit">Đăng ký</button>
     </form>
-    <p>Đã có tài khoản? <a href="/">Đăng nhập</a></p>
+    <div class="switch-link">
+      <p>Đã có tài khoản? <a href="/login">Đăng nhập</a></p>
+    </div>
   </div>
 </body>
 </html>
